@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="formDiv">
+      <div class="header">
+        <h1>Elevoo Form</h1>
+      </div>
+      <form>
+        <div class="formInputs">
+          <div class="nameInput">
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Enter your name.."
+              required
+            />
+            <p id="nameError"></p>
+          </div>
+
+          <div class="emailInput">
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email.."
+              required
+            />
+            <p id="emailError"></p>
+          </div>
+
+          <div class="subjectInput">
+            <label for="subject">Subject:</label>
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              placeholder="Subject.."
+              required
+            />
+            <p id="subjectError"></p>
+          </div>
+
+          <div class="messageInput">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Leave a message.."
+              required
+            ></textarea>
+            <p id="messageError"></p>
+          </div>
+
+          <button type="submit" class="buttonForm" id="submitButton">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
