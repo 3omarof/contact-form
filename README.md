@@ -26,4 +26,4 @@ The form includes:
 ### Live Demo
 
 You can check out the live version of this project here:  
-👉 [Contact Form on Vercel](hcontact-form-henna-seven.vercel.app)
+👉 [Contact Form on Vercel](https://contact-form-henna-seven.vercel.app/)
